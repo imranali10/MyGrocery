@@ -1,0 +1,44 @@
+<?php 
+include("config.php");
+
+if (isset($_GET['delete'])) {
+    $id = $_GET['delete'];
+    $sql= "DELETE FROM `accounts` WHERE `accounts`.`id` = $id";
+    if ($conn->query($sql) === TRUE) {
+       header('location:admin.php');
+
+   }
+   else{
+    echo "Error deleting record: " . $conn->error;
+}        
+}elseif(isset($_GET['view'])) {
+    $id=$_GET['view'];
+    $sql = "SELECT * FROM accounts WHERE id = '$id'";
+    if ($conn->query($sql) === TRUE) {?>
+        <form>                            
+            <input type="text"  value="" readonly="readonly">
+            <input type="email" value="" readonly="readonly">                      
+            <input type="tel" readonly="readonly">
+            <textarea readonly="readonly"></textarea>
+            <a href="admin.php" class="btn">Back</a>
+        </form>
+
+        
+        <?php}else{
+            echo "Error deleting record: " . $conn->error;
+        } 
+        
+    }elseif(isset($_GET['update'])){
+        $id=$_GET['update'];
+        $sql = "SELECT * FROM accounts WHERE id = '$id'";
+        if ($conn->query($sql) === TRUE) {?>
+
+            # code...
+            <?php}else{
+                echo "Error deleting record: " . $conn->error;
+            }
+
+        }
+
+
+        ?>
