@@ -120,8 +120,8 @@ require_once('config.php');
     </div>
 
 
-    <!-- --------footer---------- -->
-    <div class="footer">
+ <!-- --------footer---------- -->
+ <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
@@ -133,7 +133,7 @@ require_once('config.php');
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png" >
+                    <img src="images/logo_white.png" >
                     <p>Grocery store with different treasures .</p>                     
                 </div>
                 <div class="footer-col-3">
@@ -158,7 +158,6 @@ require_once('config.php');
      <hr>
      <p class="copyright">&#xA9; Copyright 2020 | MyGrocery</p>
  </div>
-</div>
 <!-- -------js for toggle menu--- -->
 <script>
     var MenuItems=document.getElementById("MenuItems");

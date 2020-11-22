@@ -79,7 +79,7 @@ $image_src = "upload/".$image;
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png" >
+                    <img src="images/logo_white.png" >
                     <p>Grocery store with different treasures .</p>                     
                 </div>
                 <div class="footer-col-3">

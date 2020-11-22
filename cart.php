@@ -152,45 +152,44 @@ else{ echo"0 Results";?>
 </div>
 
 <!-- --------footer---------- -->
-<div class="footer">
-<div class="container">
-<div class="row">
-<div class="footer-col-1">
-<h3>Download Our App</h3>
-<p>Elitr est tempor eos voluptua dolor clita gubergren, accusam eos.</p>
-<div class="app-logo">
-<img src="images/play-store.png" >
-<img src="images/app-store.png" >
-</div>
-</div>
-<div class="footer-col-2">
-<img src="images/logo-white.png" >
-<p>Elitr est tempor eos voluptua dolor clita gubergren, accusam eos.
-Der verklungen der liebe das mich sonst  beifall euch,.</p>                     
-</div>
-<div class="footer-col-3">
-<h3>Useful Links</h3>
-<ul>
-<li>Coupons</li>
-<li>Blog Post</li>
-<li>Return Policy</li>
-<li>Join Affiliate</li>
-</ul>
-</div>
-<div class="footer-col-4">
-<h3>Follow</h3>
-<ul>
-<li>Facebook</li>
-<li>Instagram</li>
-<li>Twitter</li>
-<li>Youtube</li>
-</ul>
-</div>
-</div>
-<hr>
-<p class="copyright">&#xA9; Copyright 2020 | MyGrocery</p>
-</div>
-</div>
+ <!-- --------footer---------- -->
+ <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>For the food lovers.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" >
+                        <img src="images/app-store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo_white.png" >
+                    <p>Grocery store with different treasures .</p>                     
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                     <li>Coupons</li>
+                     <li>Blog Post</li>
+                     <li>Return Policy</li>
+                     <li>Join Affiliate</li>
+                 </ul>
+             </div>
+             <div class="footer-col-4">
+                <h3>Follow</h3>
+                <ul>
+                 <li>Facebook</li>
+                 <li>Instagram</li>
+                 <li>Twitter</li>
+                 <li>Youtube</li>
+             </ul>
+         </div>
+     </div>
+     <hr>
+     <p class="copyright">&#xA9; Copyright 2020 | MyGrocery</p>
+ </div>
 <!-- -------js for toggle menu--- -->
 <script>
 var MenuItems=document.getElementById("MenuItems");

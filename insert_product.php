@@ -34,10 +34,10 @@ if(isset($_POST['but_upload'])){
         // $image = 'data:image/'.$imageFileType.';base64,'.$image_base64;
         // Insert record
         $query = "insert into products(product_category,product_image,product_name,product_price,product_des) values('".$p_cat."','".$name."','".$p_name."','".$p_price."','".$p_des."')";
-        mysqli_query($conn,$query);
-        // if ($query===TRUE) {
-            // header('location:reg.php');
-            echo "string";
+        mysqli_query($conn,$query);?>
+        <!-- // if ($query===TRUE) {
+            // header('location:reg.php'); -->
+           <center><b> <?php echo "Product Inserted !!!";?></b> </center><?php
             move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);
             # code...
             // }else

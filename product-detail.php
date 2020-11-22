@@ -51,32 +51,17 @@ $result_v = mysqli_query($conn,$v);
                 <div class="small-img-row">
                     <div class="small-img-row">
                         <div class="small-img-col">
-                            <img src="images/gallery-1.jpg" width="100%" class="small-img" alt="">
+                            <img src="<?php echo $image_src;  ?>" width="100%" class="small-img" alt="">
                         </div>
-                        <div class="small-img-col">
-                            <img src="images/gallery-2.jpg" width="100%" class="small-img" alt="">
-                        </div>
-                        <div class="small-img-col">
-                            <img src="images/gallery-3.jpg" width="100%" class="small-img" alt="">
-                        </div>
-                        <div class="small-img-col">
-                            <img src="images/gallery-4.jpg" width="100%" class="small-img" alt="">
-                        </div>
+                       
                     </div>
                 </div>
             </div>
             <div class="col-2">
                 <p> Home / <?php echo $category ;?> / <?php  echo   $product['product_name']; ?></p>
                 <h1 style="text-transform: capitalize;"><?php echo $product['product_name']; ?></h1>
-                <h4><?php echo  $product['product_price']; ?></h4>
-                <select name="" id="">
-                    <option value="">Select Size</option>
-                    <option value="">XXL</option>
-                    <option value="">XL</option>
-                    <option value="">Large</option>
-                    <option value="">Medium</option>
-                    <option value="">Small</option>
-                </select>
+                <h4>$ <?php echo  $product['product_price']; ?></h4>
+                
                 <input type="number" value="1">
                 <?php
                 if(!isset($_SESSION['id'])){?>
@@ -135,8 +120,8 @@ if ($result_v->num_rows > 0) {
 
 
 
-    <!-- --------footer---------- -->
-    <div class="footer">
+     <!-- --------footer---------- -->
+     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
@@ -148,7 +133,7 @@ if ($result_v->num_rows > 0) {
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png" >
+                    <img src="images/logo_white.png" >
                     <p>Grocery store with different treasures .</p>                     
                 </div>
                 <div class="footer-col-3">
@@ -173,7 +158,6 @@ if ($result_v->num_rows > 0) {
      <hr>
      <p class="copyright">&#xA9; Copyright 2020 | MyGrocery</p>
  </div>
-</div>
 <!-- -------js for toggle menu--- -->
 <script>
     var MenuItems=document.getElementById("MenuItems");

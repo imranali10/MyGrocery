@@ -2,7 +2,7 @@
 
 <div class="navbar">
 <div class="logo">
-<a href="index.php"><img src="images/logo.png" alt="Logo" width="125px"></a>
+<a href="index.php"><img src="images/logo_.png" alt="Logo" width="120px" height="90px"></a>
 </div>
 <nav>
 <ul id="MenuItems">
